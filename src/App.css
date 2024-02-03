@@ -19,6 +19,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.dd_flex {
+  justify-content: space-between;
+}
 .f_flex {
   display: flex;
 }
@@ -73,7 +76,7 @@ button {
   margin-top: 80px;
 }
 .mtop {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .heading {
   margin: 50px 0 50px 0;
@@ -123,7 +126,16 @@ footer p {
 /*----------Footer---------*/
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+   
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  grid-template-columns: unset;
+  grid-gap: unset;
+
+  }
+  .btn_shadow{
+    margin: 10px 0px;
   }
   .left,
   .right {

@@ -10,7 +10,7 @@ const TestimonialApi = [
   },
   {
     id: 2,
-    image: "./image/manish.jpg",
+    image: "https://manishmaurya.netlify.app/manish.jpg",
     design: "Nisarg Shah",
     name: "Manish Mayura",
     post: "Front End Devloper",

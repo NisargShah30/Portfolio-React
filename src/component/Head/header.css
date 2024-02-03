@@ -46,7 +46,7 @@ header ul li a:hover {
   box-shadow: -1px 11px 24px -11px orange; 
   transition: 0.5s;
 }
-@media (max-width: 768px) {
+@media (max-width: 940px) {
   header ul {
     padding-top: 30px;
   }

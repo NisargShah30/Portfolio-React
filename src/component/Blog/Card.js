@@ -59,16 +59,17 @@ const Card = (props) => {
               <div className='contact mtop'>
                 <h1>Leave a Reply</h1>
 
-                <form className='blog_contact d_flex'>
+                <form className='blog_contact dd_flex'>
                   <div className='left'>
                     <input type='text' placeholder='Name' />
                     <input type='email' placeholder='Email' />
                     <input type='text' placeholder='Website' />
-                    <button className='btn_shadow'>SUBMIT NOW</button>
+                   
                   </div>
                   <div className='right'>
                     <textarea cols='30' rows='12' placeholder='Comment'></textarea>
                   </div>
+                  <button className='btn_shadow'>SUBMIT NOW</button>
                 </form>
               </div>
               {/*---------Leave Message----------  */}

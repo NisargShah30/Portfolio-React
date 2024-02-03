@@ -4,13 +4,21 @@
 
 .Testimonial .left {
   width: 35%;
-  padding: 35px;
-  margin: 20px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 .Testimonial .right {
   width: 65%;
+  height: 100%;
   padding: 0 0 0 50px;
   margin: 0 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .Testimonial .quote i {
   font-size: 150px;
@@ -18,7 +26,7 @@
 }
 
 .Testimonial .content {
-  padding: 50px;
+  padding: 20px;
 }
 .Testimonial .content h1 {
   font-weight: 500;
@@ -43,7 +51,7 @@
   margin: auto;
   height: 500px;
   position: relative;
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
 }
 article {
@@ -73,22 +81,28 @@ article.nextSlide {
   }
   .Testimonial .left {
     width: 100%;
+    height: 40%;
     display: flex;
+    background-color: red;
+    flex-direction: column;
     margin: 0;
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .Testimonial .left img {
-    width: 190px;
+    width: 100%;
+    height: 40%;
     border-radius: 10px;
     margin-right: 20px;
   }
   .Testimonial .right {
+    display: block;
     width: 100%;
-    margin: 0;
+    margin: 20px 0px;
     padding: 0 0 0 0px;
+   
   }
   .Testimonial .slide {
-    height: 70vh;
+    height: 100vh;
     max-width: 90%;
   }
   .Testimonial .quote {
