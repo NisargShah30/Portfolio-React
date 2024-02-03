@@ -1,0 +1,36 @@
+const BlogApi = [
+  {
+    id: 1,
+    image: "./image/webs's.jpeg",
+    date: "2/2/2024",
+    title_one: "Web Devlopment",
+    desc_one: "Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.",
+    title_two: "Front End Devloper",
+    desc_two: "A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. ",
+    title_three: "Back End Devloper",
+    desc_three: " Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.",
+  },
+  {
+    id: 2,
+    image: "./image/kbs.jpeg",
+    date: "2/2/2024",
+    title_one: "Graphic Designer  ",
+    desc_one: "Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated web developers translate the designs to code.",
+    title_two: "Figma",
+    desc_two: "Figma has the potential to support the entire design process end to end. First sketches, feedback collection, collaboration, ready-to-test prototypes, and developer handoff are well within its capabilities.",
+    title_three: "Canva",
+    desc_three: "Canva is a free graphic design platform that allows you to easily create invitations, business cards, flyers, lesson plans, Zoom backgrounds, and more using professionally designed templates.",
+  },
+  {
+    id: 3,
+    image: "./image/appss'b.avif",
+    date: "2/2/2024",
+    title_one: "App Devloper",
+    desc_one: "An application developer is a software engineer who designs, creates, tests, programs and updates applications for a particular device like mobile or web or a specific operating system. Application developers typically specialise in one area of development, like a mobile phone application",
+    title_two: "React Native ",
+    desc_two: "React Native developers are software developers who specialize in using the React Native framework to build mobile apps. A mobile app developer's typical day will likely involve writing and reviewing code, troubleshooting bugs and defects, and designing user interfaces (UIs).",
+    title_three: "Java",
+    desc_three: "A key advantage of Java application development lies in object-oriented programming concepts that are extensible, scalable, and adaptable. This language comes with a wide library of design patterns and other advanced technologies. Java also provides powerful interaction with native elements and speeds up development.",
+  },
+]
+export default BlogApi
